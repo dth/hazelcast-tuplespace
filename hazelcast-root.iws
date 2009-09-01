@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hazelcast-root.ipr" afterPath="$PROJECT_DIR$/hazelcast-root.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hazelcast-root.iws" afterPath="$PROJECT_DIR$/hazelcast-root.iws" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="hazelcast-root.iws" />
+    <ignored path=".idea/workspace.xml" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="Commander">
@@ -97,10 +98,8 @@
       <file leaf-file-name="TupleSpaceImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/TupleSpaceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="91" selection-start="6118" selection-end="6118" vertical-scroll-proportion="0.2700831">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="174" column="95" selection-start="6481" selection-end="6481" vertical-scroll-proportion="0.16481994">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -534,13 +533,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -970,7 +976,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1448" height="908" extended-state="1" />
+    <frame x="-4" y="-4" width="1448" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
@@ -1072,19 +1078,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/lease/Lease.java">
+    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/ExpiredEntryReaper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1251617538046" expanded="true" signature="130:263" placeholder="/**...*/" />
-            <marker date="1251617538046" expanded="true" signature="411:545" placeholder="/**...*/" />
-          </folding>
+        <state line="9" column="33" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/TupleSpace.java">
+    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/impl/ConcurrentMapManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="3002" column="0" selection-start="108568" selection-end="108568" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1096,22 +1099,6 @@
             <marker date="1251617538171" expanded="true" signature="37:321" placeholder="..." />
             <marker date="1251617538171" expanded="true" signature="1127:1384" placeholder="{...}" />
             <marker date="1251617538171" expanded="true" signature="1433:1690" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/impl/ConcurrentMapManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3002" column="0" selection-start="108568" selection-end="108568" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/SpaceEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1251617537500" expanded="false" signature="37:168" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1136,15 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/lease/SpaceEntryLease.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1251617537875" expanded="false" signature="43:167" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/lease/SpaceEventListenerLease.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
@@ -1154,19 +1132,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/ExpiredEntryReaper.java">
+    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/lease/SpaceEntryLease.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1251617537875" expanded="false" signature="43:167" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/TupleSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/SpaceEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1251617537500" expanded="false" signature="37:168" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/lease/Lease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1251617538046" expanded="true" signature="130:263" placeholder="/**...*/" />
+            <marker date="1251617538046" expanded="true" signature="411:545" placeholder="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hazelcast/src/main/java/com/hazelcast/space/TupleSpaceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="91" selection-start="6118" selection-end="6118" vertical-scroll-proportion="0.2700831">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="174" column="95" selection-start="6481" selection-end="6481" vertical-scroll-proportion="0.16481994">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1216,13 @@
           <value>
             <UIState>
               <option name="proportions">
-                <SplitterProportionsDataImpl />
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
               </option>
             </UIState>
           </value>
@@ -1259,7 +1269,13 @@
           <value>
             <UIState>
               <option name="proportions">
-                <SplitterProportionsDataImpl />
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
               </option>
             </UIState>
           </value>
